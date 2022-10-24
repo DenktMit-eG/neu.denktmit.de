@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% if page.title_overwrite %}{{ page.title_overwrite }}{% else %}{{ page.title }} - DenktMit eG{% endif %}</title>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="/assets/css/zitronenblau.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;1000&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<header>
+    <!-- not easy to style within a flexbox as a seperate element -->
+    <!--<h1><a href="#">DenktMit</a></h1>-->
+    <nav>
+    <ul>
+        <!-- Alternative ist es, <img src="...svg"> einzubinden, hat beides Vor- und Nachteile -->
+        <li><a href="/" class="logo">
+            <span class="placeholder">
+                DenktMit
+            </span>
+        <li><a href="#">Team</a>
+        <li><a href="#">Expertise</a>
+        <li><a href="#">Case<br>Studies</a>
+        <li><a href="#">Blog</a>
+        <li><a href="#">Jobs</a>
+        <li><a href="#">Kontakt</a>
+    </ul>
+    </nav>
+</header>
+
+{{ content }}
+
+
+</body>
+</html>

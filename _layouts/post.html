@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<section class="blog">
+
+<h2>Unser DenktMit Tech-Blog</h2>
+
+<p>Nach Themen filtern: ...
+
+
+<div class="sheet text" style="position:relative">
+
+    <a href="/blog/"><img src="/assets/images/closing-cross.svg"
+        style="width: 3.5vw; position: absolute; top: -.8vw; right: -.8vw;"></a>
+
+<p>{{ page.date | date_to_string }}
+<h2>{{ page.title }}</h2>
+<p>Von {{ page.author }}
+
+<figure class="teaser rounded">
+    <img src="{{ page.header_image }}" style="max-width:100%" alt="{{ page.header_image_alt }}" />
+    <figcaption>{{ page.header_image_caption }}
+            <footer style="display: inline">
+            <small>{{ page.header_image_attribution }}</small>
+        </footer>
+    </figcaption>
+</figure>
+
+{{ content }}
+
+</div>
+
+</section><!--/blog -->
+
