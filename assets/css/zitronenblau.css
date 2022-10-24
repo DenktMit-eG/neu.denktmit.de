@@ -1,0 +1,162 @@
+/*
+ * In remembrance of zitronengrau and
+ * https://xd.adobe.com/view/2311f7fb-1633-4d86-8508-7ec85a160288-7642/
+ * where this layout comes from.
+ * 
+ * started by svenk at 2022-10-24, 22:00
+ */
+
+/* This is vanilla CSS, which supports variables. Welcome to 2022! :) */
+/* foo-ish (en) = foo-lich (de) */
+:root {
+    --blueish: #1a69e9;
+    --greenish: #00ffb5;
+    --reddish: #ff6478;
+    --whiteish: #ffffff;
+    --greyish: #f5f5f5;
+}
+
+* { box-sizing: border-box; }
+
+/* Some basic reset CSS */
+nav ul, nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 130%;
+}
+
+a:link, a:visited, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.center { text-align: center; }
+
+
+/* Start of styling */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Nunito', sans-serif;
+}
+
+header, section.blue {
+    background-color: var(--blueish);
+    color: var(--whiteish);
+}
+
+header nav {
+    padding: 4vw; 
+    /* lr = 10vh does not work */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-content: space-around;
+    
+    font-size: 2vw;
+}
+
+header nav li {
+    text-align: center;
+    align-self: center; /* vertical alignment */
+}
+
+header a {
+    display: inline-block;
+    font-weight: bold;
+    
+    /*min-width: 7em;*/
+}
+
+header a:focus, header a:active, header a:hover {
+    /* font-weight: 1000; */ /* looks shitty */
+    opacity: .6;
+}
+
+header a.logo {
+    background: url(../images/denktmit-logo-white-transparent.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 288px;
+    height: 81px;
+    margin-left: 1em;
+}
+
+header a.logo:focus, header a.logo:active, header a.logo:hover {
+    background-image: url(../images/denktmit-logo-white-transparent-highlighted.svg);
+}
+
+header .placeholder {
+    display: none;
+}
+
+section {
+    padding: 10vh;
+}
+
+section.hero h1 {
+    text-indent: 1em;
+    font-size: 900%;
+    margin: 0;
+}
+
+section.hero p {
+    font-size: 130%;
+}
+
+
+/* key visual */
+
+section.hero { overflow-x: hidden; }
+section.hero img.key-visual {
+    float: right;
+    width: 45vw;
+    position: relative;
+    right: -13vw;
+    top: -11vw;
+    margin-bottom: -11vw;
+}
+section.after-key-visual {
+    margin-top: -8vw;
+    background-color: var(--whiteish);
+}
+
+/* Yeah, buttons */
+.btn, a.btn {
+    display: inline-block;
+    padding: 1em 2em;
+    border-radius: 5em;
+    font-weight: bold;
+    margin-right: 1.2em;
+    
+    background-color: var(--blueish);
+    color: var(--whiteish);
+}
+
+section.blue .btn {
+    color: var(--blueish);
+    background-color: var(--whiteish);
+}
+
+
+section.largish {
+    /* dafuq, still super large text */
+    font-size: 150%;
+}
+
+
+section.grey {
+    background-color: var(--greyish);
+}
