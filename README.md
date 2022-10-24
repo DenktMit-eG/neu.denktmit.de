@@ -8,7 +8,7 @@ Um die Entwicklung zu vereinfachen, hab ich mich derzeit entschieden für
 
 * Vanilla CSS (kein SCSS oder LESS)
 * Leichtes templated HTML mit [Liquid](https://shopify.github.io/liquid/)/Jekyll
-* Github Pages Build nach https://denktmit-eg.github.io/neu.denktmit.de/
+* Github Pages Build nach https://neu.denktmit-github.ufopixel.de/
 
 Derzeit ist das Repository public, weil Github Pages "for free" nur mit öffentlichen Repos
 funktioniert. Außerdem sehe ich auch keinen Grund, die Entwicklung privat zu machen, die Website
