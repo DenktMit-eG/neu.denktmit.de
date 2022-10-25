@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<header class="header-footer">
+<header class="blue header-footer scrolling">
     <!-- not easy to style within a flexbox as a seperate element -->
     <!--<h1><a href="#">DenktMit</a></h1>-->
     <nav>
@@ -20,12 +20,21 @@
                 DenktMit
             </span>
             </a>
-        <li><a href="/team/">Team</a>
-        <li><a href="/expertise/">Expertise</a>
-        <li><a href="/case-studies/">Case<br>Studies</a>
-        <li><a href="/blog/">Blog</a>
-        <li><a href="/jobs/">Jobs</a>
-        <li><a href="/kontakt/">Kontakt</a>
+        {% include main-navigation.html %}
+    </ul>
+    </nav>
+</header>
+
+<header class="sticky header-footer">
+    <!-- grauer fixed/sticky header -->
+    <nav>
+    <ul>
+        <li><a href="/" class="logo blue">
+            <span class="placeholder">
+                DenktMit
+            </span>
+            </a>
+        {% include main-navigation.html %}
     </ul>
     </nav>
 </header>
@@ -34,7 +43,7 @@
 {{ content }}
 <!-- End of content -->
 
-<footer class="header-footer">
+<footer class="blue header-footer">
     <nav>
         <div><!-- col1 -->
         
@@ -55,12 +64,7 @@
         
         <nav class="footer-central-nav">
             <ul>
-                <li><a href="/team/">Team</a>
-                <li><a href="/expertise/">Expertise</a>
-                <li><a href="/case-studies/">Case Studies</a>
-                <li><a href="/blog/">Blog</a>
-                <li><a href="/jobs/">Jobs</a>
-                <li><a href="/kontakt/">Kontakt</a>
+                {% include main-navigation.html %}
             </ul>
         </nav>
         

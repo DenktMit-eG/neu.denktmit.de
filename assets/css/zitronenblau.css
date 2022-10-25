@@ -53,7 +53,7 @@ html, body {
     font-family: 'Nunito', sans-serif;
 }
 
-.header-footer, section.blue {
+.blue {
     background-color: var(--blueish);
     color: var(--whiteish);
 }
@@ -110,6 +110,47 @@ header nav a {
     background-image: url(../images/denktmit-logo-white-transparent-highlighted.svg);
 }
 
+.header-footer a.logo.blue {
+    background-image: url(../images/denktmit-logo-blue-transparent.svg);
+}
+
+.header-footer a.logo.blue:focus,
+.header-footer a.logo.blue:active,
+.header-footer a.logo.blue:hover {
+    background-image: url(../images/denktmit-logo-blue-transparent-highlighted.svg);
+}
+
+header.sticky {
+    background-color: var(--greyish);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    
+    font-size: 170%;
+    
+    box-shadow: 0 0 2vh #919090;
+}
+
+header.sticky nav {
+    padding: 1.5vw 0;
+}
+
+header.scrolling {
+    position: relative;
+    z-index: 20;
+}
+
+/* arghl, what a hack! */
+header.sticky nav br { display: none; }
+header.sticky a.logo {
+    height: 42px;
+}
+
+header.sticky a {
+    color: var(--blueish);
+}
 
 /* footer */
 
@@ -172,6 +213,12 @@ section.hero img.key-visual {
 section.after-key-visual {
     margin-top: -8vw;
     background-color: var(--whiteish);
+}
+
+/* Stoerer-Eigenschaften */
+.stoerer {
+    position: relative;
+    z-index: 30; /* fancy hover effect over header */
 }
 
 /* Yeah, buttons */
