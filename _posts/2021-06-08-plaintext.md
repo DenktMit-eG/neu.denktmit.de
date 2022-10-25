@@ -4,8 +4,8 @@ author: Sven Köppel
 language: de
 description: Daten leben länger! Vor allem als die Systeme, die diese ursprünglich produziert und verarbeitet haben. Ein Plädoyer für Plaintext Format.
 title: Plaintext ist Trumpf
-related_image: /files/sdm/images/ascii-wohnt-jetzt-hier.png
-header_image: /files/sdm/images/ascii-wohnt-jetzt-hier.png
+related_image: /assets/blog/ascii-wohnt-jetzt-hier.png
+header_image: /assets/blog/ascii-wohnt-jetzt-hier.png
 header_image_alt: ASCII Art - ASCII WOHNT JETZT HIER 
 header_image_caption: ASCII Art
 header_image_attribution: <a href="https://denktmit.de/2021/06/08/plaintext.html">Marius Schmidt</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via DenktMit eG

@@ -3,8 +3,8 @@ layout: post
 author: Marius Schmidt
 language: en
 description: The concept of story points as estimates often confuses people. Everything is easy if you treat them as cognitive load. 
-related_image: /files/sdm/images/stack-of-black-poker-cards-displaying-jack-queen-and-king.jpg
-header_image: /files/sdm/images/stack-of-black-poker-cards-displaying-jack-queen-and-king.jpg
+related_image: /assets/blog/stack-of-black-poker-cards-displaying-jack-queen-and-king.jpg
+header_image: /assets/blog/stack-of-black-poker-cards-displaying-jack-queen-and-king.jpg
 header_image_alt: A stack of three black poker cards displaying jack, queen and king
 header_image_caption: Planing poker gamificates your estimation sessions
 header_image_attribution: <a href="https://www.pexels.com/de-de/foto/kasino-gluck-schwarz-spiel-4253690/">Raka Miftah</a>, <a href="https://www.pexels.com/de-de/lizenz/">Pexels Lizenz (19.11.2021)</a>, via Pexels

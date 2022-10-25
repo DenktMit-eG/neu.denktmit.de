@@ -4,8 +4,8 @@ author: Sven Köppel
 language: de
 description: Hard- und Firmware Entwickler nutzen öfter stackbasierten Programmiersprachen. Dieser Blick über den Tellerrand gibt eine Einführung ins Paradigma.  
 title: "Der Blick über den Tellerrand, Volume 1: Stackbasierte Programmiersprachen"
-related_image: /files/sdm/images/step-by-step-illustration-of-a-lifo-stack.png
-header_image: /files/sdm/images/step-by-step-illustration-of-a-lifo-stack.png
+related_image: /assets/blog/step-by-step-illustration-of-a-lifo-stack.png
+header_image: /assets/blog/step-by-step-illustration-of-a-lifo-stack.png
 header_image_alt: Schrittweise Illustration des Zustands eines LIFO Stacks nach einzelnen pushes und pops
 header_image_caption: Push und Pop auf dem LIFO stack
 header_image_attribution: <a href="https://commons.wikimedia.org/wiki/File:Lifo_stack.png">Maxtremus</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via Wikimedia Commons

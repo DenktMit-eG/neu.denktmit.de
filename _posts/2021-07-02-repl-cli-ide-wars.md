@@ -4,8 +4,8 @@ author: Sven Köppel
 language: de
 description: Nicht jeder Entwickler will immer nur das Eine&#58; Die IDE anschmeissen. Meine Hommage an die Einfachheit einer guten REPL.
 title: "Die IDE-Wars"
-related_image: /files/sdm/images/blue-neon-spiral.jpg
-header_image: /files/sdm/images/blue-neon-spiral.jpg
+related_image: /assets/blog/blue-neon-spiral.jpg
+header_image: /assets/blog/blue-neon-spiral.jpg
 header_image_alt: Blaue Neonspiral die sich zum Fluchtpunkt hin verjüngt
 header_image_caption: Eat, Sleep, Exercise, Repeat
 header_image_attribution: <a href="https://www.pexels.com/de-de/foto/blaues-spiral-neonlicht-2495173">Frank Cone</a>, <a href="https://www.pexels.com/de-de/lizenz/">Pexels Lizenz (19.11.2021)</a>, via Pexels

@@ -3,8 +3,8 @@ layout: post
 author: Marius Schmidt
 language: en
 description: Congrats for having automated acceptance tests. Let us now use them to validate deployments in the wild with some help of Docker and Gauge.
-related_image: /files/sdm/images/containerized-train-train-loaded-with-shipping-containers.jpg
-header_image: /files/sdm/images/containerized-train-train-loaded-with-shipping-containers.jpg
+related_image: /assets/blog/containerized-train-train-loaded-with-shipping-containers.jpg
+header_image: /assets/blog/containerized-train-train-loaded-with-shipping-containers.jpg
 header_image_alt: Some connected trainwagons each loaded with two shipping containers 
 header_image_caption: Release and ship your E2E test containers
 header_image_attribution: <a href="https://www.flickr.com/photos/danorth1/1593214595/">Daniel Orth</a>, <a href="https://creativecommons.org/licenses/by-nd/2.0/">CC BY-ND 2.0</a>, via flickr
@@ -335,11 +335,11 @@ give it a first try. Lets run a failing webtest
 
 Once the test is completed, we might want to take a look at the HTML reports, we so wisely mounted into our file system.
 This is, what the Gauge generated reports look like
-![](/files/sdm/images/release-your-e2e-containers-gauge-report-screenshot.png)
+![](/assets/blog/release-your-e2e-containers-gauge-report-screenshot.png)
 
 Clicking on the screenshot gives you a great inside into what the browser was seeing while running the tests. Obviously
 the DenktMit eG is not yet listed as the coolest co-op in the world, but at least we get the information what went wrong
-![](/files/sdm/images/release-your-e2e-containers-search-results-screenshot.png)
+![](/assets/blog/release-your-e2e-containers-search-results-screenshot.png)
 
 Obviously, the search term is not giving us the expected result. Let's do a query, this humble presenter knows to work
 most of the time.

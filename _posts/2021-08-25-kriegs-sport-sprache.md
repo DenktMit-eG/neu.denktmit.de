@@ -4,8 +4,8 @@ author: Sven Köppel
 language: de
 description: Inspiriert von zahlreichen Businessgesprächen bietet dieser Post einen kommentierten Überblick über martialische Redewendungen im beruflichen Alltag
 title: "Martialische Redewendungen im beruflichen Alltag"
-related_image: /files/sdm/images/museum-tank-aiming-its-barrel-at-the-viewer.jpg
-header_image: /files/sdm/images/museum-tank-aiming-its-barrel-at-the-viewer.jpg
+related_image: /assets/blog/museum-tank-aiming-its-barrel-at-the-viewer.jpg
+header_image: /assets/blog/museum-tank-aiming-its-barrel-at-the-viewer.jpg
 header_image_alt: Museumspanzer dessen Geschützrohr auf den Betrachter zielt
 header_image_caption: Wirkt auch im Museum noch bedrohlich
 header_image_attribution: <a href="https://www.pexels.com/de-de/foto/militar-krieg-museum-perspektive-9250/">Skitterphoto</a>, <a href="https://www.pexels.com/de-de/lizenz/">Pexels Lizenz (19.11.2021)</a>, via Pexels

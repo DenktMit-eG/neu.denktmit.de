@@ -5,7 +5,7 @@ language: de
 description: Was dem Chefkoch seine Küchenmesser sind dem Entwickler seine Rechner. Ein Auftakt zum Austausch über produktive Arbeitsumgebungen.
 title: "Show your Workspace! Der Auftakt"
 related_image: https://c.pxhere.com/images/4a/a8/aac0acfee04fd1846b89c55afcfd-1640239.jpg!d
-header_image: /files/sdm/images/white-table-two-chairs-laptops-ontop-and-businessmen-in-display-facing-each-other.jpeg
+header_image: /assets/blog/white-table-two-chairs-laptops-ontop-and-businessmen-in-display-facing-each-other.jpeg
 header_image_alt: Weißer Tisch und zwei Stühle mit Laptops aus deren Bildschirmen herausragend sich zwei Männer anschauen
 header_image_caption: Zeigt uns euren Workspace
 header_image_attribution: <a href="https://pxhere.com/en/photo/1640239">Mohamed Hassan</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via PxHere

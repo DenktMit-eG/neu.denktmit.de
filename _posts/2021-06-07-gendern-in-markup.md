@@ -4,8 +4,8 @@ author: Sven Köppel
 language: de
 description: Sie möchten geschlechtergerecht schreiben. Dieser Artikel zeigt technische Unterstützung und zu überwindende Hürden auf.
 title: Gendern im Markup und in Programmiersprachen
-related_image: /files/sdm/images/gender-neutral-language-letter-cubes-disply-nonbinary.jpg
-header_image: /files/sdm/images/gender-neutral-language-letter-cubes-disply-nonbinary.jpg
+related_image: /assets/blog/gender-neutral-language-letter-cubes-disply-nonbinary.jpg
+header_image: /assets/blog/gender-neutral-language-letter-cubes-disply-nonbinary.jpg
 header_image_alt: Nahaufnahme von Buchstabenwürfel die das Wort nonbinary formen
 header_image_caption: Geschlechtsneutrale Sprache inkludiert alle
 header_image_attribution: <a href="https://www.pexels.com/de-de/foto/nahaufnahme-von-buchstabenperlen-3868989/">Sharon McCutcheon</a>, <a href="https://www.pexels.com/de-de/lizenz/">Pexels Lizenz (19.11.2021)</a>, via Pexels

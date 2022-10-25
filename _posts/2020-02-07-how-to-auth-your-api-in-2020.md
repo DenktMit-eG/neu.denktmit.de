@@ -3,8 +3,8 @@ layout: post
 author: Marius Schmidt
 language: en
 description: Just a quick link collection about auth for API
-related_image: /files/sdm/images/padlock-as-symbolic-image-for-physical-auth.png
-header_image: /files/sdm/images/padlock-as-symbolic-image-for-physical-auth.png
+related_image: /assets/blog/padlock-as-symbolic-image-for-physical-auth.png
+header_image: /assets/blog/padlock-as-symbolic-image-for-physical-auth.png
 header_image_alt: a padlock as symbolic image for physical auth
 header_image_caption: Padlocks are used for physical auth
 header_image_attribution: <a href="https://commons.wikimedia.org/wiki/File:Security,_Downpatrick,_May_2011.JPG">Ardfern</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
