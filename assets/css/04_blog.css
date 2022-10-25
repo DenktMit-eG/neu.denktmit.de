@@ -1,0 +1,24 @@
+
+section.grey {
+    background-color: var(--greyish);
+}
+
+section.blog {
+    background-color: var(--lightblue);
+    color: #0d3575;
+}
+
+section.blog .sheet {
+    background-color: white;
+    color: black;
+    border-radius: 3vw;
+    padding: 8vh 5vw;
+    
+    /* prevent ultra wide line length */
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+figure.teaser img { width: 100%; }
+figure.rounded img {  border-radius: 3vw; }

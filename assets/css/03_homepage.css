@@ -1,0 +1,64 @@
+
+
+/* sections */
+
+section {
+    padding: 10vh;
+}
+
+section.hero h1 {
+    text-indent: 1em;
+    font-size: 900%;
+    margin: 0;
+}
+
+section.hero p {
+    font-size: 130%;
+}
+
+
+
+/* key visual */
+
+section.hero { overflow-x: hidden; }
+section.hero img.key-visual {
+    float: right;
+    width: 45vw;
+    position: relative;
+    right: -13vw;
+    top: -11vw;
+    margin-bottom: -11vw;
+}
+section.after-key-visual {
+    margin-top: -8vw;
+    background-color: var(--whiteish);
+}
+
+/* Stoerer-Eigenschaften */
+.stoerer {
+    position: relative;
+    z-index: 30; /* fancy hover effect over header */
+}
+
+/* Yeah, buttons */
+.btn, a.btn {
+    display: inline-block;
+    padding: 1em 2em;
+    border-radius: 5em;
+    font-weight: bold;
+    margin-right: 1.2em;
+    
+    background-color: var(--blueish);
+    color: var(--whiteish);
+}
+
+section.blue .btn {
+    color: var(--blueish);
+    background-color: var(--whiteish);
+}
+
+
+section.largish {
+    /* dafuq, still super large text */
+    font-size: 150%;
+}

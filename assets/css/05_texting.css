@@ -1,0 +1,27 @@
+
+
+/* textual areas */
+
+.text a:link {
+    color: var(--blueish);
+}
+
+.text a:visited {
+    color: #6964ff; /* somewhat purple */
+}
+
+.text a:hover, .text a:focus, .text a:active {
+    text-decoration: underline;
+}
+
+.blog-listing {
+    display: grid;
+}
+
+/* links within headings */
+.text h2 a:link,
+.text h3 a:link,
+.text h2 a:visited,
+.text h3 a:visited {
+    color: inherit;
+}
