@@ -6,6 +6,8 @@
     
     <link rel="stylesheet" href="/assets/css/zitronenblau.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;1000&display=swap" rel="stylesheet"> 
+    
+    <!-- JS at end of page for performance -->
 </head>
 <body>
 
@@ -29,12 +31,13 @@
     <!-- grauer fixed/sticky header -->
     <nav>
     <ul>
-        <li><a href="/" class="logo blue">
+        <li class="also-mobile"><a href="/" class="logo blue">
             <span class="placeholder">
                 DenktMit
             </span>
             </a>
         {% include main-navigation.html %}
+        <li class="only-mobile"><a href="#mobile-menu">menu</a>
     </ul>
     </nav>
 </header>
@@ -43,32 +46,29 @@
 {{ content }}
 <!-- End of content -->
 
-<footer class="blue header-footer">
+<footer class="blue header-footer" id="mobile-menu">
     <nav>
-        <div><!-- col1 -->
-        
-        <a href="/" class="logo">
-            <span class="placeholder">
-                DenktMit
-            </span>
-        </a>
-        
-        <p>
-        <u>DenktMit eG</u>
-        
-        <p style="margin-bottom:0">
-        hallo@denktmit.de
-        <br>+49 6195 8098 889
-        
+        <div class="contact">
+            <a href="/" class="logo">
+                <span class="placeholder">
+                    DenktMit
+                </span>
+            </a>
+            
+            <p>
+            <u>DenktMit eG</u>
+            
+            <p style="margin-bottom:0">
+            hallo@denktmit.de
+            <br>+49 6195 8098 889
+            
         </div>
-        
-        <nav class="footer-central-nav">
+        <nav class="central">
             <ul>
                 {% include main-navigation.html %}
             </ul>
         </nav>
-        
-        <div>
+        <div class="secondary">
             <nav class="icons" style="margin-bottom:2em">
                 <!-- Todo: replace with white icons -->
                 <ul>
@@ -87,6 +87,8 @@
         </div>
     </nav>
 </footer>
+
+<script src="/assets/js/simple.js" type="text/javascript"></script>
 
 </body>
 </html>

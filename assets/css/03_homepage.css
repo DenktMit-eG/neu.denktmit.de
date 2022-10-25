@@ -7,8 +7,8 @@ section {
 }
 
 section.hero h1 {
-    text-indent: 1em;
-    font-size: 900%;
+    /* text-indent: 1em; */
+    font-size: max(7vh, 8vw); /* 900%; */
     margin: 0;
 }
 
