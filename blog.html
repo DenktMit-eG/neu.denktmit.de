@@ -8,6 +8,9 @@ permalink: /blog/
 
 {% include blog-header.html %}
 
+{% comment%}
+We just use CSS for highlighting and so on!
+
 <!-- highlight the latest blog article -->
 {% for post in site.posts limit:1 %}
     <p>{{ post.date | date_to_string }}
@@ -19,25 +22,23 @@ permalink: /blog/
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p>von {{ post.author }}</p>
 {% endfor %}
+{% endcomment %}
 
 <!-- show all subsequent posts -->
-<div style="display: grid; grid-template-columns: 50% 50%;">
+<div class="blog-listing">
 {% for post in site.posts %}
-{% unless forloop.first %}
 
-<div class="post" style="padding: 2vw">
+<div class="post {% if forloop.first %}first{% endif %}">
     <p>{{ post.date | date_to_string }}
     <figure class="rounded teaser">
         <a href="{{ post.url }}">
-        <img src="{{ post.header_image }}" alt="{{ post.header_image_alt }}"
-             style="max-height: 15em; object-fit: cover;" />
+        <img src="{{ post.header_image }}" alt="{{ post.header_image_alt }}">
         </a>
     </figure>
     <h3><a href="{{post.url}}">{{ post.title }}</a></h3>
     <p>von {{ post.author }}</p>
 </div>
 
-{% endunless %}
 {% endfor %}
 </div>
 

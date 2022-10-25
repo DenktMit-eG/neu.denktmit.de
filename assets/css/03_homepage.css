@@ -3,7 +3,7 @@
 /* sections */
 
 section {
-    padding: 10vh;
+    padding: 10vh min(5vw, 10vh);
 }
 
 section.hero h1 {
@@ -50,6 +50,11 @@ section.after-key-visual {
     
     background-color: var(--blueish);
     color: var(--whiteish);
+}
+
+.btn.secondary {
+    background-color: var(--greyish);
+    color: black;
 }
 
 section.blue .btn {

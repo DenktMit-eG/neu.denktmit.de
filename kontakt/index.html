@@ -1,0 +1,75 @@
+---
+layout: default
+title:  "Kontakt"
+header_code: >
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+   <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+---
+
+<section class="largish grey center">
+    <h1>Kontaktieren Sie uns.
+    <br>Wir werden uns so schnell wie möglich bei Ihnen melden.
+    </h1>
+    
+    <p style="font-size:120%">
+    <a href="mailto:hallo@denktmit.de" class="btn">hallo@denktmit.de</a>
+    <a href="tel:+4961958098889" class="btn">+49 6195 8098 889</a>
+    
+</section>
+
+<section class="largish  map-host">
+    <div id="map-maker-text">
+      <h1>Besuchen Sie uns in Oberursel bei Frankfurt</h1>
+      
+      <p>
+      <address>
+      DenktMit eG<br />
+      An der Herrenmühle 7-9<br />
+      61440 Oberursel
+      </address>
+      
+      <p>
+      Öffnen in <a href="https://www.openstreetmap.org/?mlat=50.20362&amp;mlon=8.57504#map=19/50.20362/8.57504">OpenStreetMap</a>,
+      <a href="https://goo.gl/maps/aPTCNEFThsQ92rKV7">Google Maps</a>,
+      <a href="https://www.bing.com/maps?osid=481226ab-f0e8-489b-82df-e3f245e31c5d&amp;cp=50.204079~8.569327&amp;lvl=16&amp;v=2&amp;sV=2&amp;form=S00027">Bing Maps</a>.
+    </div>
+    
+    <!-- background map, with OpenStreetMap -->
+    <div id="leaflet-map"></div>
+    
+</section>
+
+<script>
+function ready(fn) {
+  if (document.readyState !== 'loading') {
+    fn();
+  } else {
+    document.addEventListener('DOMContentLoaded', fn);
+  }
+}
+
+// coordinates: [ xpos/lat, ypos/lon ]
+// map.getCenter() gives you...
+var maps_center = {
+  "lat": 50.17647325987509,
+  "lng": 8.651733398437502
+};
+var maps_zoom =  9.5;
+var maps_pos = [ 50.20364, 8.57500 ]; // Marker Position of DenktMit Zentrale
+var map;
+
+ready(function() {
+   maps_content = document.querySelector("#map-maker-text").innerHTML;
+
+	map = L.map('leaflet-map').setView(maps_center, maps_zoom);
+
+	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(map);
+
+	L.marker(maps_pos).addTo(map)
+	    .bindPopup(maps_content)
+	    .openPopup();
+});
+
+</script>

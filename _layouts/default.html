@@ -8,6 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;1000&display=swap" rel="stylesheet"> 
     
     <!-- JS at end of page for performance -->
+    
+    {% if page.header_code %}
+    <!-- additional page-specific header code -->
+    {{ page.header_code }}
+    {% endif %}
 </head>
 <body>
 

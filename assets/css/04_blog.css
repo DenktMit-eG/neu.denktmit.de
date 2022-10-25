@@ -8,6 +8,8 @@ section.blog {
     color: #0d3575;
 }
 
+/* blog posting */
+
 section.blog .sheet {
     background-color: white;
     color: black;
@@ -22,3 +24,60 @@ section.blog .sheet {
 
 figure.teaser img { width: 100%; }
 figure.rounded img {  border-radius: 3vw; }
+
+/* blog listing. Now this is mobile first! */
+.blog-listing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    grid-gap: 3vw;
+}
+
+.blog-listing p {
+    margin-top: 0;
+}
+
+.blog-listing h3 {
+    margin: 1vh 0;
+}
+
+.blog-listing .post {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-listing figure {
+    flex-grow: 10;
+}
+
+
+.blog-listing img {
+    /* max-height: 15em;*/
+    object-fit: cover;
+    height: 100%;
+}
+
+/* highlight the first post */
+
+.blog-listing > :first-child  {
+    grid-column-start: span 2;
+    font-size: 160%;
+}
+
+@media (min-width: 900px ) {
+    .blog-listing {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .blog-listing > :first-child  {
+        grid-column-start: span 3;
+    }
+}
+
+@media (min-width: 1200px ) {
+    .blog-listing {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .blog-listing > :first-child  {
+        grid-column-start: span 2;
+    }
+}
