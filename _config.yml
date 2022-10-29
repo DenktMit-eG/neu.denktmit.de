@@ -15,6 +15,12 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+  
+sass:
+  style: expanded
+  sass_dir: assets/css/
+#  load_paths:
+#    - assets/css/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
