@@ -4,7 +4,13 @@
     <title>{% if page.title_overwrite %}{{ page.title_overwrite }}{% else %}{{ page.title }} - DenktMit eG{% endif %}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    
+
+    <!-- CSS at beginning of page for not overriding own css -->
+
+    {% if page.header_css %}
+    <!-- additional page-specific header css -->
+    {{ page.header_css }}
+    {% endif %}
     <link rel="stylesheet" href="/assets/css/zitronenblau.css">
 
     <!-- JS at end of page for performance -->
