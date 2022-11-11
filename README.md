@@ -1,3 +1,7 @@
+# Migrated to Hugo (2022-11-11) 
+Repo: https://github.com/DenktMit-eG/website.denktmit.de
+
+
 # Neue DenktMit-Website mit zitronigem Layout (2022)
 
 Hier reverse-engineeren wir https://xd.adobe.com/view/2311f7fb-1633-4d86-8508-7ec85a160288-7642/
